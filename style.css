@@ -1,0 +1,53 @@
+.containerr {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(51, 51, 229) 50%, white 50%);
+    display: flex;
+    justify-content: space-between; /* Spread items across the container */
+    align-items: center; /* Center items vertically */
+    padding: 0 50px; /* Add some padding to the sides */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the start of the container */
+    flex: 1; /* Take up available space */
+}
+
+.content p {
+    color: white;
+    margin: 0;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+.phone {
+    width: 50%;
+    height: auto; /* Keep aspect ratio */
+    margin-top: 25px;
+}
+
+.formm {
+    flex: 1; /* Take up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (top-left) */
+    padding-left: 80px; /* Adjust spacing from the left side */
+     /* Adjust spacing from the top side */
+    color: black;
+}
+
+
+.formm h2, .formm p {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.form{
+    margin-top: 50px;
+}
+
+
